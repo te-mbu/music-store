@@ -1,0 +1,38 @@
+.product {
+    margin: 5rem 0;
+    flex: 45%;
+    padding: 0 11rem;
+}
+
+.productInfos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 3rem 3rem;
+    background-color: #F6F6F5;
+    margin-top: -4px;
+    width: 35vw;
+}
+
+.product img {
+    width: 35vw;
+}
+
+.product h4 {
+    font-weight: 300;
+    margin: 0;
+}
+
+.product h1 {
+    margin: 0 0 1rem 0;
+}
+
+.discover {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: small;
+    background-color: black;
+    color: white;
+}

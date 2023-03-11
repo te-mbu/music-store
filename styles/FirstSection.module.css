@@ -1,0 +1,87 @@
+.FirstSection {
+    height: 100vh;
+    background: url('../public/background.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background: transparent
+}
+
+.title {
+    color: white;
+    width: 30rem;
+    text-align: center;
+    letter-spacing: 1rem;
+    font-weight: 200;
+}
+
+.rightHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15rem;
+    margin-right: 5rem;
+}
+
+.leftHeader {
+    margin-left: 5rem;
+}
+
+.fpfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.fpfooterLeft {
+    margin: 0 0 2rem 5rem;
+    color: white
+}
+
+.fpfooterLeft h3 {
+    font-weight: 300;
+    margin-bottom: 0;
+} 
+
+.fpfooterLeft h1 {
+    margin-top: 0.6rem;
+}
+
+.fpfooterRight {
+    margin: 0 5rem 2rem 0;
+
+}
+
+.discover {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.buy {
+    width: 10rem;
+    height: 3rem;
+    margin-left: 2rem;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: small;
+}
